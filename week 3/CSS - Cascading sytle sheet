@@ -1,0 +1,58 @@
+CSS- Cascading Style Sheets
+
+CSS Rules
+1. Selector
+2.declaration block{}
+
+p(selector)
+{
+    property : values;
+    color : blue;
+    font-size : 16px;
+}
+
+Selectors:
+
+1.Universal selector(*) targets all elements
+*{
+    .....style goes here
+}
+
+2.Element Selector -target specific elements
+
+h1,form,p
+{
+    ......style goes here
+}
+
+3.Class Selector-target elements with a specific class attribute(.)
+<h3 class="highlight">Title</h3>
+<p class="highlight">Test Paragraph</p>
+
+.hightlight
+{
+    color : red;
+}
+
+4.ID Selector -targets one specific ::-webkit-progress-inner-element
+<table id="tbl_one"></table>
+#tbl_one 
+{
+......style
+}
+
+5.Group selectors -related or not target group 
+
+h1,h2,h3,h4 ,p
+{
+......style
+}
+
+6.Descendant selector - targets elements inside another element
+div(container:) 
+p
+{
+
+}
+padding - space outside an elements border
+margin  - space inside an elements border

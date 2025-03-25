@@ -1,0 +1,18 @@
+#google{
+    color:blue;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.home-footer{
+    color: green;
+    font-weight: bold;
+}
+
+body{
+    
+    background-repeat: no-repeat; /*prevents image repeat*/
+
+    background-size: cover;
+    background-position-x: center;
+}
